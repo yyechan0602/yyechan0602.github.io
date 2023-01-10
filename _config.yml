@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Blog"
+title                    : "평생 공부"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "ariancy"
@@ -107,12 +107,12 @@ author:
   name             : "ariancy"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "초보 개발자"
-  location         : "Somewhere"
-  email            :
+  location         : "South Korea"
+  email            : "Email"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:yyechan1@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"

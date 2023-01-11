@@ -1,0 +1,24 @@
+---
+title:  "title"
+excerpt: "설명"
+
+categories:
+  - Blog
+tags:
+  - [Blog, jekyll, Github, Git]
+
+toc: true
+toc_sticky: true
+ 
+date: 2023-01-10
+last_modified_at: 2023-01-11
+---
+
+## 이름
+
+내용
+
+<br>
+
+***
+    개인 공부 기록용 블로그입니다. 틀리거나 오류가 있을 경우 제보해주시면 감사합니다.

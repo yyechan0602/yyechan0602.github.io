@@ -177,7 +177,8 @@ last_modified_at: 2023-01-17
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("FloorTop")){
+        if (collision.collider.CompareTag("FloorTop"))
+        {
             _isJump = false;
             rigid.velocity = rigid.velocity / 2;
         }
@@ -194,16 +195,27 @@ last_modified_at: 2023-01-17
         }
         else if (collision.collider.CompareTag("ThornTop") || collision.collider.CompareTag("Monster"))
         {
-            Die();
+            Death();
+        }
+        else if (collision.collider.CompareTag("Coin"))
+        {
+            
+        }
+        else if (collision.collider.CompareTag("Portal"))
+        {
+            Clear();
         }
     }
-
-    void Die()
+    void Death()
     {
         rigid.velocity = rigid.velocity * 0;
         transform.position = Start_Point;
     }
-}
+
+    void Clear()
+    {
+
+    }
 
 <br>
 

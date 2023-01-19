@@ -1,5 +1,5 @@
 ---
-title:  "미니게임 만들기[Bounce Ball] 구상"
+title:  "미니게임 만들기 [Bounce Ball 1] 구상"
 excerpt: "간단한 미니게임을 만들고 실행해보자"
 
 categories:

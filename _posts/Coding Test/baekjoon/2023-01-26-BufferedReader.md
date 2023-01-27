@@ -5,7 +5,7 @@ excerpt: "실력향상을 위한 BAEKJOON 문제 및 풀이"
 categories:
   - BAEKJOON
 tags:
-  - [BufferReader, Java, Coding_Test, Coding, Test, baekJoon]
+  - [BufferReader, Java, Coding_Test, Coding, Test, baekJoon, 백준]
 
 toc: true
 toc_sticky: true

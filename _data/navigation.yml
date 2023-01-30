@@ -11,9 +11,6 @@ main:
     url: /year-archive/
 
 sidebar-category:
-  - title: "Coding-Test"
-      - title: "백준"
-        url: "/BaekJoon"
   - title: "Unity"
       - title: "Unity1"
         url: "/Unity1"

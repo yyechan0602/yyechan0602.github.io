@@ -14,7 +14,7 @@ sidebar-category:
   - title: "Coding-Test"
     children:
       - title: "백준"
-        url: "/BAEKJOON" 
+        url: "/BaekJoon" 
   - title: "Unity"
     children:
       - title: "Unity1"

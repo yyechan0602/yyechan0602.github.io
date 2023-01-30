@@ -1,9 +1,9 @@
 ---
-title:  "[BAEKJOON] BufferReader 사용하기"
-excerpt: "실력향상을 위한 BAEKJOON 문제 및 풀이"
+title:  "[BaekJoon] BufferReader 사용하기"
+excerpt: "실력향상을 위한 BaekJoon 문제 및 풀이"
 
 categories:
-  - BAEKJOON
+  - BaekJoon
 tags:
   - [BufferReader, Java, Coding_Test, Coding, Test, baekJoon, 백준]
 

@@ -11,14 +11,19 @@ sidebar-category:
     children:
       - title: "백준"
         url: "/BaekJoon" 
+        category: "BaekJoon"
+
   - title: "Unity"
     children:
       - title: "Unity1"
         url: "/Unity1"    
+        category: "Unity1"
+        
   - title: "etc"
     children:  
       - title: "Blog"
         url: "/Blog"
+        category: "Blog"
 
 #main:
   # - title: "About"

@@ -1,14 +1,10 @@
 # main links
 
 main:
-  - title: "About"
-    url: /about/
+  - title: "Main"
+    url: /Main/
   - title: "Category"
     url: /categories/
-  - title: "Tag"
-    url: /tags/
-  - title: "Archive"
-    url: /year-archive/
 
 sidebar-category:
   - title: "Coding-Test"

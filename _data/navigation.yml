@@ -11,9 +11,6 @@ main:
     url: /year-archive/
 
 sidebar-category:
-  - title: "Unity"
-      - title: "Unity1"
-        url: "/Unity1"
   - title: "etc"
     children:
       - title: "Blog"

@@ -3,9 +3,9 @@ title:  "큐브 돌리기"
 excerpt: "큐브를 돌려서 회전시키는 방법에 대해서 알아보자"
 
 categories:
-  - Unity
+  - Unity1
 tags:
-  - [Unity, Rolling, Cube]
+  - [Unity1, Rolling, Cube]
 
 toc: true
 toc_sticky: true

@@ -3,9 +3,9 @@ title:  "Bounce Game 4"
 excerpt: "간단한 미니게임을 만들고 실행해보자"
 
 categories:
-  - Unity
+  - Unity1
 tags:
-  - [Unity, Bounce, Game]
+  - [Unity1, Bounce, Game]
 
 toc: true
 toc_sticky: true

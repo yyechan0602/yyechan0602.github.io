@@ -3,9 +3,9 @@ title:  "미니게임 만들기 [Bounce Ball 1] 구상"
 excerpt: "간단한 미니게임을 만들고 실행해보자"
 
 categories:
-  - Unity
+  - Unity1
 tags:
-  - [Unity, Bounce Ball, Game]
+  - [Unity1, Bounce Ball, Game]
 
 toc: true
 toc_sticky: true

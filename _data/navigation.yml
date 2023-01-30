@@ -10,7 +10,13 @@ main:
   - title: "Archive"
     url: /year-archive/
 
-    
+sidebar-category:
+  - title: "카테고리"
+    children:
+      - title: "블로그"
+        url: "/Blog"
+
+
 #main:
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

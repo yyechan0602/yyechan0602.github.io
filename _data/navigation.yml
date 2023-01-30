@@ -11,13 +11,18 @@ main:
     url: /year-archive/
 
 sidebar-category:
-  - title: "etc"
+  - title: "Coding-Test"
     children:
+      - title: "백준"
+        url: "/BAEKJOON" 
+  - title: "Unity"
+    children:
+      - title: "Unity1"
+        url: "/Unity1"    
+  - title: "etc"
+    children:  
       - title: "Blog"
         url: "/Blog"
-      - title: "Unity1"
-        url: "/Unity1"        
-
 
 #main:
   # - title: "About"

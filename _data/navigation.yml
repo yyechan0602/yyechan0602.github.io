@@ -13,6 +13,11 @@ sidebar-category:
         url: "/BaekJoon" 
         category: "BaekJoon"
 
+  - title: "CS"
+    children:
+      - title: "Algorithm"
+        url: "/Type_Of_Algorithm" 
+
   - title: "Unity"
     children:
       - title: "Unity1"

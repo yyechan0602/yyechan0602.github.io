@@ -1,5 +1,5 @@
 ---
-title:  "[Algorithm] DP 알고리즘"
+title:  "[Algorithm] 📈 DP 알고리즘"
 excerpt: "제한된 공간과 시간안에서 어떻게 데이터를 처리할지에 대한 알고리즘을 알아보자"
 categories:
   - Type Of Algorithm

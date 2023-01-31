@@ -1,5 +1,5 @@
 ---
-title:  "Bounce Game 2"
+title:  "[Bounce Game] 미니게임 만들기 2"
 excerpt: "간단한 미니게임을 만들고 실행해보자"
 
 categories:

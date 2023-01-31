@@ -1,9 +1,8 @@
 ---
 title:  "[Algorithm] Greedy 알고리즘"
 excerpt: "제한된 공간과 시간안에서 어떻게 데이터를 처리할지에 대한 알고리즘을 알아보자"
-2023-01-31-Greedy_Algorithm
 categories:
-  - Algorithm1
+  - Algorithm Lesson 1
 tags:
   - [Greedy, 탐욕, Algorithm, Algorithm1]
 
@@ -44,8 +43,14 @@ last_modified_at: 2023-01-31
 
 ![image](https://user-images.githubusercontent.com/37824506/215640395-ece44c6e-41bc-4f24-89cd-887b6e87bef9.png)
 
+위의 그림에서와 같이 a값에서 시작한후 가장 y값이 높은 곳을 찾을때, 기울기가 가장 가파른 왼쪽으로 간다면 결국에는 최종적으로는 가장 높은 y값을 얻을 수 없게된다.  
+
+따라서, `Greed Algorithm`을 사용하기 위해서는 이 알고리즘으로 해결이 되는 문제인지 검토해 보는 것이 중요하다.
+
+<br>
 
 ## 📖 관련 예시
+
 
 tag:Greedy
 

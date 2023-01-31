@@ -4,6 +4,8 @@ layout: archive
 permalink: /Type_Of_Algorithm
 author_profile: true
 sidebar_main: true
+sidebar:
+    nav: "sidebar-category"
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title:  "유니티 설치"
+title:  "📖 유니티 설치"
 excerpt: "유니티 허브를 설치하고 경로설정을 해보자"
 
 categories:

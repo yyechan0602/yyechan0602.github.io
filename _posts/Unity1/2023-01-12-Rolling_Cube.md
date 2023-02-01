@@ -1,5 +1,5 @@
 ---
-title:  "큐브 돌리기"
+title:  "🎲 큐브 돌리기"
 excerpt: "큐브를 돌려서 회전시키는 방법에 대해서 알아보자"
 
 categories:

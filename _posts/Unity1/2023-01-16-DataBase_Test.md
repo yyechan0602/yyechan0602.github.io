@@ -1,5 +1,5 @@
 ---
-title:  "Unity와 DB 연동하기"
+title:  "📂 Unity와 DB 연동하기"
 excerpt: "LogIn창을 만들고 DB와 연동하여 로그인기능을 구현하자"
 
 categories:

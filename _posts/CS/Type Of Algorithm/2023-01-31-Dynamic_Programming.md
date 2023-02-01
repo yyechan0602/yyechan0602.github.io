@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-01-31
-last_modified_at: 2023-01-31
+last_modified_at: 2023-02-01
 ---
 
 ## 📘 DP 알고리즘 (Dynamic Algorithm) 이란
@@ -20,39 +20,54 @@ last_modified_at: 2023-01-31
 복잡한 문제를 간단한 여러 개의 문제로 나누어 푸는 방법을 말한다. 이것은 부분 문제 반복과 최적 부분 구조를 가지고 있는 알고리즘을 일반적인 방법에 비해 더욱 적은 시간 내에 풀 때 사용한다.
 {: .notice} 
 
-`Greedy` 즉 탐욕스럽게 바로 앞의 상황만 보는 알고리즘이다.  
-즉, `Greedy Algorithm`이란 매 부분의 최적해를 찾아서 결론을 도출하는 알고리즘이다.  
-하지만 1차, 2차함수를 제외한 다른 함수들은 극값이 곧 최대/최소값이 아니듯, 그리드 알고리즘으로 나온 결과값도 항상 그 문제의 최적해는 아니다.  
+일반적으로 재귀를 통해 풀 수 있는 문제의 시간복잡도는 O(n^2)이다.  
+하지만 다음 그림과 같이 재귀는 여러가지 겹치는 동일한 연산들이 발생한다.  
+이를 DP알고리즘을 통해 개선하면 O(f(n))정도로 개선이 가능하다.  
 
-따라서 `Greedy Algorithm`이 잘 작동하기 위해서는 다음 두가지 특징을 따라야한다.
-
- - `Greedy choice property`
- - `Optimal substructure`
+![image](https://user-images.githubusercontent.com/37824506/215921835-44ca02f1-4eba-42a9-8069-1f8900e451fd.png)
 
 <br>
 
-### 📌 Greedy Choice Property
+## 📘 DP 알고리즘의 사용 조건
 
-각 부분에서의 최적해가 결국 최종 답을 구하기 위한 최적해인 경우
+ - `Overlapping Subproblems`
+ - `Optimal Substructure`
+
+<br>
+
+### 📌 Overlapping Subproblems
+
+돌일한 작은 문제들이 반복하여 나타나는 경우
 
 ### 📌 Optimal Substructure
 
-문제에 대한 최적해가 하위 문제에 대한 최적해를 포함하는 경우
+부분 문제의 최적 결과값을 사용해 전체 문제의 최적 결과를 낼 수 있는 경우
 
 <br>
 
-![image](https://user-images.githubusercontent.com/37824506/215640395-ece44c6e-41bc-4f24-89cd-887b6e87bef9.png)
 
-위의 그림에서와 같이 a값에서 시작한후 가장 y값이 높은 곳을 찾을때, 기울기가 가장 가파른 왼쪽으로 간다면 결국에는 최종적으로는 가장 높은 y값을 얻을 수 없게된다.  
+## 📘 구현방법
 
-따라서, `Greed Algorithm`을 사용하기 위해서는 이 알고리즘으로 해결이 되는 문제인지 검토해 보는 것이 중요하다.
+### 📌 Bottom-Up 방식
+
+재귀함수와 똑같은 방식으로 작동하지만, "Memoization"을 활용하여, 이전에 계산한 값을 다시 반복하는 것이 아니라 단순히 가져오는 방식으로 처리함으로써, 시간복잡도를 줄이는 방식이다.  
+
+### 📌 Top-Down 방식
+
+dp[0]부터 dp[n]까지를 점화식을 이용하여, 아래에서부터 위까지 누적하여 전체 큰 문제를 해결하는 방식이다.
+
+### 📌 중요!!!
+
+2가지 방법 중 2가지를 전부 사용하지 못하고, 하나만 사용할 수 있는 문제도 존재한다.  
+따라서 여러가지 문제를 다각도로 풀어보는 경험이 중요하다.
+
 
 <br>
 
 ## 📖 관련 예시
 
 
-tag:Greedy
+tag:DP
 
 
 

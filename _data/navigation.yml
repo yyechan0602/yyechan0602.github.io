@@ -23,8 +23,10 @@ sidebar-category:
     children:
       - title: "Algorithm"
         url: "/Type_Of_Algorithm"
+        category: "Type Of Algorithm"
       - title: "Data Structure"
         url: "/Data_Structure" 
+        category: "Data Structure"
 
   - title: "Unity"
     children:

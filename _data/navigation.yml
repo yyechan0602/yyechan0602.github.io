@@ -22,7 +22,9 @@ sidebar-category:
   - title: "CS"
     children:
       - title: "Algorithm"
-        url: "/Type_Of_Algorithm" 
+        url: "/Type_Of_Algorithm"
+      - title: "Data Structure"
+        url: "/Data_Structure" 
 
   - title: "Unity"
     children:

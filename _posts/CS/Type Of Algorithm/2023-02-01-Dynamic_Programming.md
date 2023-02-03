@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-02-01
-last_modified_at: 2023-02-01
+last_modified_at: 2023-02-03
 ---
 
 ## 📘 DP 알고리즘 (Dynamic Algorithm) 이란

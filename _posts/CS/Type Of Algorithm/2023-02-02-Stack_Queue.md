@@ -1,5 +1,5 @@
 ---
-title:  "[Data Structure] 📂 Stack과 QUE"
+title:  "[Data Structure] 📂 Stack과 Queue"
 excerpt: "제한된 공간과 시간안에서 어떻게 데이터를 처리할지에 대한 알고리즘을 알아보자"
 categories:
   - Data Structure
@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-02-02
-last_modified_at: 2023-02-02
+last_modified_at: 2023-02-03
 ---
 
 

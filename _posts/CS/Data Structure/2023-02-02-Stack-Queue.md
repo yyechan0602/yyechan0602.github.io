@@ -1,5 +1,5 @@
 ---
-title:  "[Data Structure] 📂 Stack과 Queue"
+title:  "[Data Structure] 📂 Stack과 Queue에 대해서 알아보자"
 excerpt: "제한된 공간과 시간안에서 어떻게 데이터를 처리할지에 대한 알고리즘을 알아보자"
 categories:
   - Data Structure
@@ -19,12 +19,20 @@ last_modified_at: 2023-02-03
  - `Stack`이란 제한적으로 접근할 수 있는 나열 구조
  - 후입선출 즉, `LIFO` 형식의 자료구조
 
+스택은 객체들의 집합소로서 데이터를 저장하는 구조이다.  
+항상 같은 구조와 크기의 자료를 정해진 방향으로만 쌓을 수 있다.  
+스택에서 `Top`을 통해 삽입하는 연산을 `PUSH`, `Top`을 통해 삭제하는 연산을 `POP`이라고 한다.
+
+![image](https://user-images.githubusercontent.com/37824506/216577140-b1e95836-6c38-4aa8-b907-011a7a7481e5.png)
+
 <br>
 
 ## 📘 Queue 의 정의
 
  - `Queue`이란 제한적으로 접근할 수 있는 나열 구조
  - 선입선출 즉, `FIFO` 형식의 자료구조
+
+![image](https://user-images.githubusercontent.com/37824506/216576185-14231e7a-d201-474f-b484-4fd69b1bd04f.png)
 
 <br>
 

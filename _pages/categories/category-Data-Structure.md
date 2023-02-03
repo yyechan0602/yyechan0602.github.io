@@ -1,5 +1,5 @@
 ---
-title: "Type of Algorithm"
+title: "Data Structure"
 layout: archive
 permalink: /Data Structure
 author_profile: true

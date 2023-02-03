@@ -1,7 +1,7 @@
 ---
 title: "Type of Algorithm"
 layout: archive
-permalink: /Type_Of_Algorithm
+permalink: /Type-Of-Algorithm
 author_profile: true
 sidebar_main: true
 sidebar:

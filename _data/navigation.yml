@@ -22,11 +22,11 @@ sidebar-category:
   - title: "CS"
     children:
       - title: "Algorithm"
-        url: "/Type_Of_Algorithm"
-        category: "Type Of Algorithm"
+        url: "/Type-Of-Algorithm"
+        category: "Type-Of-Algorithm"
       - title: "Data Structure"
-        url: "/Data_Structure" 
-        category: "Data Structure"
+        url: "/Data-Structure" 
+        category: "Data-Structure"
 
   - title: "Unity"
     children:

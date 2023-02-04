@@ -27,7 +27,7 @@ last_modified_at: 2023-02-03
 
 <br>
 
-## 📘 Two Pointer 예시
+## 📖 Two Pointer 예시
 
 `Two Pointer`와 관련된 간단한 문제를 알아보자
 
@@ -58,7 +58,7 @@ last_modified_at: 2023-02-03
 
 <br>
 
-## 📖 관련 예시
+## 🔗 관련 예시
 
 
 tag:Two Pointer

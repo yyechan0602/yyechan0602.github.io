@@ -41,7 +41,7 @@ last_modified_at: 2023-01-31
 
 <br>
 
-![image](https://user-images.githubusercontent.com/37824506/215640395-ece44c6e-41bc-4f24-89cd-887b6e87bef9.png)
+![image](https://user-images.githubusercontent.com/37824506/216756414-0425f5a9-2f2e-4c14-a63b-6bede2a97302.png)
 
 위의 그림에서와 같이 a값에서 시작한후 가장 y값이 높은 곳을 찾을때, 기울기가 가장 가파른 왼쪽으로 간다면 결국에는 최종적으로는 가장 높은 y값을 얻을 수 없게된다.  
 

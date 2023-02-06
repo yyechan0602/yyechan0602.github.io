@@ -12,6 +12,9 @@ sidebar-category:
       - title: "백준"
         url: "/BaekJoon" 
         category: "BaekJoon"
+      - title: "프로그래머스"
+        url: "/Programmers" 
+        category: "Programmers"
 
   - title: "BackEnd"
     children:
@@ -39,6 +42,9 @@ sidebar-category:
       - title: "Blog"
         url: "/Blog"
         category: "Blog"
+      - title: "Git & GitHub"
+        url: "/Git"
+        category: "Git"
 
 #main:
   # - title: "About"

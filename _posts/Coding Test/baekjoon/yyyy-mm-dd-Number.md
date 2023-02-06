@@ -16,7 +16,7 @@ last_modified_at: yyyy-mm-dd
 
 ## 📌 난이도
 
-  🏅 플래티넘 Platinum · 🥇 골드 Gold · 🥈 실버 Silver · 🥉 브론즈 Bronze
+  🏅 Platinum 플래티넘 · 🥇 Gold 골드 · 🥈 Silver 실버 · 🥉 Bronze 브론즈
 
 <br>
 

@@ -21,6 +21,9 @@ sidebar-category:
       - title: "SpringBoot"
         url: "/SpringBoot" 
         category: "SpringBoot"
+      - title: "스트링부트 핵심가이드"
+        url: "/SpringBoot-Core-Guide" 
+        category: "SpringBoot Core Guide"
 
   - title: "CS"
     children:

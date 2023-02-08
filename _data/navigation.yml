@@ -20,16 +20,16 @@ sidebar-category:
     children:
       - title: "SpringBoot"
         url: "/SpringBoot" 
-        category: "SpringBoot"        
+        category: "SpringBoot"
 
   - title: "CS"
     children:
       - title: "Algorithm"
         url: "/Type-Of-Algorithm"
-        category: "Type-Of-Algorithm"
+        category: "Type Of Algorithm"
       - title: "Data Structure"
         url: "/Data-Structure" 
-        category: "Data-Structure"
+        category: "Data Structure"
 
   - title: "Unity"
     children:

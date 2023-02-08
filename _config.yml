@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "코딩 공부 블로그"
+title                    : "그날그날 배운내용 정리하는 블로그 : DevStory 🐥"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "ariancy"
-description              : "초보 개발자"
+name                     : "공부하는 ariancy"
+description              : "반가워요 😁"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

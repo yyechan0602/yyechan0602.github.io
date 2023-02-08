@@ -1,13 +1,13 @@
 # main links
 
 main:
-  - title: "Home"
+  - title: "🏠 Home"
     url: /index.html
   - title: "Category"
     url: /categories/
 
 sidebar-category:
-  - title: "Coding-Test"
+  - title: "🏆 Coding-Test"
     children:
       - title: "백준"
         url: "/BaekJoon" 
@@ -16,7 +16,7 @@ sidebar-category:
         url: "/Programmers" 
         category: "Programmers"
 
-  - title: "BackEnd"
+  - title: "💾 BackEnd"
     children:
       - title: "SpringBoot"
         url: "/SpringBoot" 
@@ -25,7 +25,7 @@ sidebar-category:
         url: "/SpringBoot-Core-Guide" 
         category: "SpringBoot Core Guide"
 
-  - title: "CS"
+  - title: "💻 CS"
     children:
       - title: "Algorithm"
         url: "/Type-Of-Algorithm"
@@ -34,13 +34,13 @@ sidebar-category:
         url: "/Data-Structure" 
         category: "Data Structure"
 
-  - title: "Unity"
+  - title: "⛳ Unity"
     children:
       - title: "Unity1"
         url: "/Unity1"    
         category: "Unity1"
         
-  - title: "etc"
+  - title: "🗑 etc"
     children:  
       - title: "Blog"
         url: "/Blog"

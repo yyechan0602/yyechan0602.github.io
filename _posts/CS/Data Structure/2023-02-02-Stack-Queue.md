@@ -34,32 +34,28 @@ last_modified_at: 2023-02-03
 
 ![image](https://user-images.githubusercontent.com/37824506/216576185-14231e7a-d201-474f-b484-4fd69b1bd04f.png)
 
-<br>
-
-
-
-## 📘 DP 알고리즘의 사용 조건
-
- - 설명
+큐는 객체들의 집합소로써 데이터를 저장하는 구조이다.  
+항상 같은 구조와 크기의 자료를 정해진 방향으로만 넣을 수 있다.  
+삽입연산이 이루어지는 곳을 `rear`, 삭제연산이 이루어지는 곳을 `front`라고 한다.  
+큐에서 `front`를 통해 삽입하는 연산을 `enQueue` 라고 하고, 스택
 
 <br>
 
-### 📌 Overlapping Subproblems
+## 📖 자바를 통한 구현
 
-<br>
+자바를 통해 위의 두가지를 구현하고 싶으면 다음 코드를 이용하면 된다.  
 
+```java
+    Stack<String> st = new Stack<>();
+    Queue<String> que = new LinkedList<>();
+```
 
-## 📘 구현방법
-
-### 📌 Bottom-Up 방식
-
-<br>
 
 ## 📖 관련 예시
 
 
-tag:DP
-
+tag:Stack
+tag:Queue
 
 
 <br>

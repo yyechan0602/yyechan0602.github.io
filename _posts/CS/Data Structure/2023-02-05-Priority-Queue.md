@@ -1,16 +1,16 @@
 ---
-title:  "[Algorithm] 📈 우선순위 큐와 힙 (Priority Queue % Heap)"
+title:  "[Data Structure] 📂 우선순위 큐와 힙 (Priority Queue & Heap)"
 excerpt: "제한된 공간과 시간안에서 어떻게 데이터를 처리할지에 대한 알고리즘을 알아보자"
 categories:
-  - Type Of Algorithm
+  - Data Structure
 tags:
-  - [우선순위큐, 힙, Priority Queue, Heap, Algorithm, Algorithm1]
+  - [우선순위큐, 힙, Priority Queue, Heap, Data Structure, 자료구조]
 
 toc: true
 toc_sticky: true
  
 date: 2023-02-13
-last_modified_at: 2023-02-13
+last_modified_at: 2023-02-16
 ---
 
 ## 📘 우선순위큐(priority Queue)란?

@@ -39,7 +39,13 @@ sidebar-category:
       - title: "Unity1"
         url: "/Unity1"    
         category: "Unity1"
-        
+
+  - title: "🔬 Data Mining"
+    children:
+      - title: "Data Mining"
+        url: "/Data Mining"    
+        category: "Data Mining"        
+
   - title: "🗑 etc"
     children:  
       - title: "Blog"

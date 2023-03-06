@@ -33,6 +33,10 @@ sidebar-category:
       - title: "Data Structure"
         url: "/Data-Structure" 
         category: "Data Structure"
+      - title: "OS"
+        url: "/Operating-System" 
+        category: "OS"
+        
 
   - title: "⛳ Unity"
     children:

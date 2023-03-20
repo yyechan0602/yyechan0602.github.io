@@ -30,7 +30,7 @@ last_modified_at: 2023-03-14
 
 <br>
 
-## 📘 스프링부트와 PostMan 사용하기
+## 📘 PostMapping을 사용하기
 
 다음과 같이 `main/java/com.example.(파일이름)` 아래에 `Controller`라는 패키지를 만들고, 그 폴더 안에 `PostController`라는 이름으로 자바 스크립트를 하나 생성해준다. 
 
@@ -102,6 +102,20 @@ public class asd {
 
 위 코드에서 **@** 라는 특이한 기호가 보인다.  
 이는 `Annotation`이라고 이는 [Annotation 이란 무엇인가](https://yyechan0602.github.io/springboot/Annotation1/) 에서 확인할 수 있다.  
+
+이때 `ResponseEntity<String> processData()` 함수에서 `/postMethod`라는 주소로 온 데이터에 들어있는 `body`를 파싱해서 처리한다.  
+이때 이 받은 데이터를 처리하기 위한 `UnityData`라는 `DTO`를 하나 만들어주고, 안에 `String` 형식으로 `id`와 `password`를 생성해준다.  
+여기서 `getter, setter`를 선언해 줘야 하는데, `IntelliJ`에서 이를 지원하는 간단한 명령어가 있다.  
+코드를 추가하고 싶은 곳에 커서를 둔 뒤, `alt + insert` 키를 눌러준 후, `getter, setter`를 추가해준다.  
+
+이제 `(파일이름)Application`을 실행시키면 다음 화면과 같이 정상적으로 코드가 작동이 된다.  
+
+![image](https://user-images.githubusercontent.com/37824506/226229393-9ebafc85-746b-443b-a050-011682244e45.png)  
+
+이후 `postMan`에서 형식을 `post`로 변경해준뒤, `http://localhost:8080/postMethod`를 입력해주고, `body` 부분에 `raw` 데이터 형식으로 다음과 같이 입력해준뒤 `Send`를 누르면 이렇게 답변이 오게 된다.
+
+![image](https://user-images.githubusercontent.com/37824506/226229637-5988b691-a3ef-4306-a3fc-0b998e65c0b9.png)
+
 
 
 

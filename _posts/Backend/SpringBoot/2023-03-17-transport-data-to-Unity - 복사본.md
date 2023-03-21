@@ -101,7 +101,7 @@ public class asd {
 ```
 
 위 코드에서 **@** 라는 특이한 기호가 보인다.  
-이는 `Annotation`이라고 이는 [Annotation 이란 무엇인가](https://yyechan0602.github.io/springboot/Annotation1/) 에서 확인할 수 있다.  
+이는 `Annotation`이고 이는 [Annotation 이란 무엇인가](https://yyechan0602.github.io/springboot/Annotation1/) 에서 확인할 수 있다.  
 
 이때 `ResponseEntity<String> processData()` 함수에서 `/postMethod`라는 주소로 온 데이터에 들어있는 `body`를 파싱해서 처리한다.  
 이때 이 받은 데이터를 처리하기 위한 `UnityData`라는 `DTO`를 하나 만들어주고, 안에 `String` 형식으로 `id`와 `password`를 생성해준다.  

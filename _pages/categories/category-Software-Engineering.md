@@ -1,7 +1,7 @@
 ---
-title: "Unity1"
+title: "Software Engineering"
 layout: archive
-permalink: /Unity1
+permalink: /Software-Engineering
 author_profile: true
 sidebar_main: true
 sidebar:
@@ -9,7 +9,7 @@ sidebar:
 ---
 
 
-{% assign posts = site.categories.Unity1 %}
+{% assign posts = site.categories.['Software Engineering'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
 
 <!--

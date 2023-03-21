@@ -36,6 +36,10 @@ sidebar-category:
       - title: "OS"
         url: "/Operating-System" 
         category: "Operating System"
+      - title: "Software Engineering"
+        url: "/Software-Engineering" 
+        category: "Software Engineering"
+        
         
 
   - title: "⛳ Unity"

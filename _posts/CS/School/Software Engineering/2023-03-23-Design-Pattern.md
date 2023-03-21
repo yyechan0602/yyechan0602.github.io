@@ -1,22 +1,34 @@
 ---
-title:  "[Operating System] 🔧 운영체제란"
-excerpt: "운영체제의 정의와 운영체제의 역사에 대해서 알아보자"
+title:  "[Software Engineering] 📒 소프트웨어 아키텍처 스타일이란?"
+excerpt: "제한된 공간과 시간안에서 어떻게 데이터를 처리할지에 대한 알고리즘을 알아보자"
 categories:
-  - Operating System
+  - Software Engineering
 tags:
-  - [정의, 기능, 역사, 배치, 로더, 스케쥴링 기법, Operating System, 운영체제]
+  - [아키텍처 스타일, MVC, 계층형, 클라이언트 서버형, 계층형, 파이프필터]
 
 toc: true
 toc_sticky: true
  
-date: 2023-03-06
-last_modified_at: 2023-03-06
+date: 2023-03-21
+last_modified_at: 2023-03-21
 ---
 
 
-## 📘 운영체제의 정의
+## 📘 아키텍처란?
 
- - **컴퓨터의 <span style="color:red">자원</span>을 <span style="color:red">독점적</span>으로 <span style="color:red">관리</span>하는 특별한 <span style="color:red">소프트웨어</span>** - (RESS)
+컴퓨터 초기의 프로그램은 주로 어셈블리 언어로 작성되었고, 이를 이해하기 위하여 추상화를 하는 것은 매우 간단한 규모였다.  
+하지만 프로그램이 20~30을 넘어가는 `Procedure` 규모가 된다면, 전체를 한꺼번에 작업하거나 생각하기 쉽지 않다.  
+이를 해결하기 위한 해결책 또한 `추상화`이다.  
+
+아키텍처란 다음과 같다.  
+
+ - **<span style="color:red">아키텍처</span>는 시스템의 구성요소들 간의 관계와 원칙, 그리고 그들이 이루는 전반적인 <span style="color:red">구조</span>를 정의하는 것이다.**
+
+일반적으로 코드에서 여러가지 함수들이 담겨져 있는 **패키지라는 개념도 클래스를 의미있는 관련된 그룹으로 구성**하는 일종의 아키텍처 개념이다.  
+
+이때 아키텍처 구성 요소 안에서 이루어지는 상세 설계에서 디자인 패턴이 사용된다.  
+
+<span style="color:red">디자인 패턴</span>은 자주 접하는 문제에 대한 설계 솔루션을 제공한다.
 
 ### 📌 운영체제는 컴퓨터의 모든 자원(resource) 관리  
 

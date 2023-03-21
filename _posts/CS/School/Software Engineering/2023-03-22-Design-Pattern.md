@@ -1,5 +1,5 @@
 ---
-title:  "[Software Engineering] 📒 소프트웨어 아키텍처 스타일이란?"
+title:  "[Software Engineering] 📒 소프트웨어 디자인 패턴이란?"
 excerpt: "제한된 공간과 시간안에서 어떻게 데이터를 처리할지에 대한 알고리즘을 알아보자"
 categories:
   - Software Engineering
@@ -9,8 +9,8 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2023-03-21
-last_modified_at: 2023-03-21
+date: 2023-03-22
+last_modified_at: 2023-03-22
 ---
 
 

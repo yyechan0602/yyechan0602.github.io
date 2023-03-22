@@ -62,18 +62,26 @@ last_modified_at: 2023-03-21
 
 <span style="color:red">MVC(Model - View - Controller)</span>는 사용자 인터페이스로부터 비즈니스 로직을 분리시켜 시각적 요소나 비즈니스 로직을 서로 영향 없이 쉽게 고칠 수 있는 스타일의 아키텍처이다.  
 
- - Model - 
- - View - 
- - Controller - 
+ - Model - 데이터와 그 데이터를 처리하는 로직을 담당한다.
+ - View - 사용자 인터페이스를 담당하고, 데이터를 보여주는 역할을 담당한다.
+ - Controller - 사용자의 요청을 처리하고, 모델과 뷰를 제어한다.  
 
+![image](https://user-images.githubusercontent.com/37824506/226608675-7a0ae4ca-4e45-4b39-9565-43e1c93e8682.png)  
 
+장점
 
+ - 각 컴포넌틔의 결합이 약해 다른 부분에 영향을 주지 않고 변경이 가능하다.  
+ - 비동기 기술을 이용하여, 로딩이 빠르다
+ - 다수의 다른 뷰를 사용가능하다.  
 
-![image](https://user-images.githubusercontent.com/37824506/226608675-7a0ae4ca-4e45-4b39-9565-43e1c93e8682.png)
+단점
+ - 분리된 컴포넌트로 인해 이해를 위한 복잡도가 올라갈 수 있다.
+ - 뷰에서 데이터를 접근하여햐 해야해서 비효율적이다.  
 
 <br>
 
 ### 📌 파이프 필터
+
 
 
 <br>

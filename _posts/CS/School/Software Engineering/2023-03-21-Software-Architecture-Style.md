@@ -62,6 +62,13 @@ last_modified_at: 2023-03-21
 
 <span style="color:red">MVC(Model - View - Controller)</span>는 사용자 인터페이스로부터 비즈니스 로직을 분리시켜 시각적 요소나 비즈니스 로직을 서로 영향 없이 쉽게 고칠 수 있는 스타일의 아키텍처이다.  
 
+ - Model - 
+ - View - 
+ - Controller - 
+
+
+
+
 ![image](https://user-images.githubusercontent.com/37824506/226608675-7a0ae4ca-4e45-4b39-9565-43e1c93e8682.png)
 
 <br>

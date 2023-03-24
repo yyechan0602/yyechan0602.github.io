@@ -1,4 +1,4 @@
- ---
+---
 title:  "[SpringBoot] 💡 MVC모델을 이용한 데이터베이스 저장하기"
 excerpt: "이전에 사용했던 로그인서버를 이용하여 MVC모델을 구현하고 데이터베이스에 저장해보자"
 categories:

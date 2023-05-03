@@ -1,5 +1,5 @@
 ---
-title:  "[Data Structure] 📂 배열과 리스트 (Priority Queue & Heap)"
+title:  "[Data Structure][자바] 📂 배열과 리스트 (Priority Queue & Heap)"
 excerpt: "제한된 공간과 시간안에서 어떻게 데이터를 처리할지에 대한 알고리즘을 알아보자"
 categories:
   - Data Structure
@@ -23,6 +23,13 @@ last_modified_at: 2023-02-17
 
 ![image](https://user-images.githubusercontent.com/37824506/219529248-8a13575b-14a6-45c8-aa4d-44bce1df7cad.png)
 
+자바에서 배열 선언을 위해서는 다음과 같은 방식을 사용한다.  
+
+```java
+int[] arr = new int[100];
+String[] strArr = { "Hello", "World", "1" };
+```
+
 <br>
 
 ## 📖 리스트란?
@@ -33,7 +40,11 @@ last_modified_at: 2023-02-17
 
 ![image](https://user-images.githubusercontent.com/37824506/219529288-cc22837e-0879-4c94-a297-b37cf27d9289.png)
 
+자바에서 리스트 선언을 위해서는 다음과 같은 방식을 사용한다.  
 
+```java
+Arraylist<Integer> list = new ArrayList<Integer>();
+```
 
 <br>
 
@@ -45,7 +56,37 @@ last_modified_at: 2023-02-17
 
 ![image](https://user-images.githubusercontent.com/37824506/219530517-6ae0c8ad-8563-4f97-9f46-d2f9362e9608.png)
 
+<br>
 
+## 📖 정렬과 탐색  
+
+
+```java
+ // 배열 정렬하기 (오름차순 / 내림차순)
+Arrays.sort(arr);
+Arrays.sort(arr, Arrays.reverseOrder());
+ 
+ // 리스트 정렬하기 (오름차순 / 내림차순)
+Collections.sort(list)
+Collections.sort(list, Collections.reverseOrder())
+```
+
+만약 자신이 만든 클래스 타입의 배열이나 리스트를 정렬하고 싶으면 클래스 안에 다음과 같은 인터페이스를 구현해주면 된다.
+
+```java
+class ClassName implements Comparable{
+  int value;
+
+  public int compareTo(Object o){
+    return this.value - o.value;
+  }
+}
+```  
+
+
+```java
+int value = Arrays.binarySearch(arr, 33);
+```
 
 <br>
 

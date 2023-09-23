@@ -1,7 +1,7 @@
 ---
-title: "CS ETC"
+title: "CS Interview"
 layout: archive
-permalink: /CS-ETC
+permalink: /CS-Interview
 author_profile: true
 sidebar_main: true
 sidebar:
@@ -9,7 +9,7 @@ sidebar:
 ---
 
 
-{% assign posts = site.categories.['CS ETC'] %}
+{% assign posts = site.categories.['CS Interview'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
 
 <!--

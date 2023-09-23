@@ -43,9 +43,9 @@ sidebar-category:
         url: "/Java"
         category: "Java"
 
-      - title: "CS ETC"
-        url: "/CS-ETC"
-        category: "CS ETC"
+      - title: "CS Interview"
+        url: "/CS-Interview"
+        category: "CS Interview"
         
 
   - title: "⛳ Unity"

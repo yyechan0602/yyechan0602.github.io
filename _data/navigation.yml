@@ -33,13 +33,21 @@ sidebar-category:
       - title: "Data Structure"
         url: "/Data-Structure" 
         category: "Data Structure"
-      - title: "OS"
-        url: "/Operating-System" 
-        category: "Operating System"
-      - title: "Software Engineering"
-        url: "/Software-Engineering" 
-        category: "Software Engineering"
-        
+      # - title: "OS"
+      #   url: "/Operating-System" 
+      #   category: "Operating System"
+      # - title: "Software Engineering"
+      #   url: "/Software-Engineering" 
+      #   category: "Software Engineering"
+      - title: "language"
+        children:
+          - title: "Java"
+            url: "/Java"
+            category: "Java"
+
+      - title: "CS ETC"
+        url: "/CS-ETC"
+        category: "CS ETC"
         
 
   - title: "⛳ Unity"

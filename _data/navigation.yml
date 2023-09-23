@@ -39,11 +39,9 @@ sidebar-category:
       # - title: "Software Engineering"
       #   url: "/Software-Engineering" 
       #   category: "Software Engineering"
-      - title: "language"
-        children:
-          - title: "Java"
-            url: "/Java"
-            category: "Java"
+      - title: "Java"
+        url: "/Java"
+        category: "Java"
 
       - title: "CS ETC"
         url: "/CS-ETC"

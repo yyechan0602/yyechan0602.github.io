@@ -1,7 +1,7 @@
 ---
 title: "JAVA"
 layout: archive
-permalink: /JAVA
+permalink: /Java
 author_profile: true
 sidebar_main: true
 sidebar:

@@ -125,21 +125,46 @@ class Node<E> {
 
 ## 📖 Stack을 구현  
 
-- int 배열을 사용하여 정수를 저장하는 Stack을 구현하세요.
-- void push(int data) 메소드를 구현하세요.
-- int pop() 메소드를 구현하세요.  
+- int 배열을 사용하여 정수를 저장하는 Stack을 구현
+- void push(int data) 메소드를 구현
+- int pop() 메소드를 구현
+
+```java
+package org.example;
+
+public class Stack<E> {
+    LinkedList<E> linkedList;
+
+    public Stack() {
+        this.linkedList = new LinkedList<>();
+    }
+
+    public void push(E value) {
+        linkedList.add(0, value);
+    }
+
+    public E pop() {
+        E result = linkedList.get(linkedList.getSize() - 1);
+        linkedList.remove(linkedList.getSize() - 1);
+
+        return result;
+    }
+}
+```
 
 <br>
 
-## 📖 LinkedList 구현  
+## 📖 앞서 만든 ListNode를 사용해서 Stack을 구현
 
-- ListNode head를 가지고 있는 ListNodeStack 클래스를 구현하세요.
-- void push(int data) 메소드를 구현하세요.
-- int pop() 메소드를 구현하세요.  
+- ListNode head를 가지고 있는 ListNodeStack 클래스를 구현
+- void push(int data) 메소드를 구현
+- int pop() 메소드를 구현 
+
+
 
 <br>
 
-## 📖 LinkedList 구현  
+## 📖 Queue 구현  
 
 - 배열을 사용해서 한번.
 - ListNode를 사용해서 한번.

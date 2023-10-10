@@ -22,8 +22,6 @@ last_modified_at: 2023-10-09
 - boolean contains(ListNode head, ListNode nodeTocheck) 메소드를 구현하세요.
 
 ```java
-package org.example;
-
 public class LinkedList<E> { // 제너릭 클래스 Element의 약자
     Node<E> head;
     Node<E> tail;
@@ -130,26 +128,24 @@ class Node<E> {
 - int pop() 메소드를 구현
 
 ```java
-package org.example;
+public class ArrayStack<E> {
+    E[] array;
+    int length;
 
-public class Stack<E> {
-    LinkedList<E> linkedList;
-
-    public Stack() {
-        this.linkedList = new LinkedList<>();
+    public ArrayStack() {
+        this.length = 0;
+        array = (E[]) new Object[100];
     }
 
     public void push(E value) {
-        linkedList.add(0, value);
+        array[length++] = value;
     }
 
     public E pop() {
-        E result = linkedList.get(linkedList.getSize() - 1);
-        linkedList.remove(linkedList.getSize() - 1);
-
-        return result;
+        return array[--length];
     }
 }
+
 ```
 
 <br>
@@ -160,14 +156,57 @@ public class Stack<E> {
 - void push(int data) 메소드를 구현
 - int pop() 메소드를 구현 
 
+```java
+public class LinkedStack<E> {
+    LinkedList<E> linkedList;
+    int lastIndex;
 
+    public LinkedStack() {
+        this.linkedList = new LinkedList<>();
+        lastIndex = 0;
+    }
+
+    public void push(E value) {
+        linkedList.add(lastIndex++, value);
+    }
+
+    public E pop() {
+        E result = linkedList.get(lastIndex - 1);
+        linkedList.remove(--lastIndex);
+        return result;
+    }
+}
+
+```
 
 <br>
 
 ## 📖 Queue 구현  
 
-- 배열을 사용해서 한번.
-- ListNode를 사용해서 한번.
+- 배열을 사용해서 한번
+- ListNode를 사용해서 한번
+
+```java
+public class LinkedQueue<E> {
+    LinkedList<E> linkedList;
+
+    public LinkedQueue() {
+        this.linkedList = new LinkedList<>();
+    }
+
+    public void offer(E value) {
+        linkedList.add(0, value);
+    }
+
+    public E poll() {
+        E result = linkedList.get(linkedList.getSize() - 1);
+        linkedList.remove(linkedList.getSize() - 1);
+
+        return result;
+    }
+}
+```
+
 
 <br>
 

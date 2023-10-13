@@ -117,7 +117,7 @@ public class Testing {
 }
 ```
 
-다음과 같지 잘 작동하는 모습이다.  
+다음과 같이 잘 작동하는 모습이다.  
 
 ![image](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/7942f768-5aac-472d-b877-188860c56e39)
 

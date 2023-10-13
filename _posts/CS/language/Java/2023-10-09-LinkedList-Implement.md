@@ -1,5 +1,5 @@
 ---
-title:  "[Java] ☕ 자료구조 구현"
+title:  "[Java] ☕ LinkedList 자료구조 구현"
 excerpt: "JAVA CS 지식 관련 정리"
 categories:
   - Java

@@ -66,6 +66,8 @@ package (이름); 를 때고, class 이름을 `Main`으로 변경하면 된다.
 
 <span style="color:red">자원</span>
 
+[출처](https://www.notion.so/2-38b5d67c7f5a48238529bb8f1617ea0d)
+
 ***
     개인 공부 기록용 블로그입니다.
     틀리거나 오류가 있을 경우 제보해주시면 감사하겠습니다.😁

@@ -13,9 +13,9 @@ date: 2023-10-04
 last_modified_at: 2023-10-04
 ---
 
-## 📖 람다 함수
+## 📖 람다식
 
-람다 함수란 일종의 `익명 함수(Anonymous Functions)`라는 개념이다.  
+`람다 함수 또는 람다식`은 일종의 `익명 함수(Anonymous Functions)`라는 개념이다.  
 `익명 클래스(Annoymous Class)'의 함수버전이라고 생각하도 되며, 한번 사용 후 버려지는 함수이다.  
 
 ```java
@@ -30,8 +30,6 @@ public static void main(String[] args) {
 }
 ```
 
-
-
 ```java
 public static void main(String[] args) {
     Comparator<Integer> comp = (o1, o2) -> (o1.compareTo(o2));
@@ -39,6 +37,11 @@ public static void main(String[] args) {
     System.out.println(comp.compare(2, 1));
 }
 ```
+
+## 📖 익명 구현 클래스 vs 람다식
+
+
+
 
 <br>
 

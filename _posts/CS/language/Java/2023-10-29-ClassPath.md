@@ -66,6 +66,15 @@ java runtime은 이 classpath에 지정된 경로를 모두 검색해서 특정 
 
 <br>
 
+
+### 🍄 ClassPath 환경변수
+
+![image](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/6b2374c5-325a-4620-ab4e-382652d02066)
+
+위와 같이 기본 라이브러리 같은 경우는 위와 같이 윈도우의 환경변수 설정을 통해서 설정되어 있다.  
+
+<br>
+
 ### 🍄 ClassPath 옵션
 
 컴파일시 파일 경로를 직접 지정해주는 방법이다.  

@@ -1,5 +1,5 @@
 ---
-title:  "[Java] ☕ 람다식"
+title:  "[Java] ☕ 람다식 (Lamda)"
 excerpt: "JAVA CS 지식 관련 정리"
 categories:
   - Java

@@ -1,5 +1,5 @@
 ---
-title:  "[Java] ☕ Exception"
+title:  "[Java] ☕ 예외 처리 (Exception)"
 excerpt: "JAVA CS 지식 관련 정리"
 categories:
   - Java

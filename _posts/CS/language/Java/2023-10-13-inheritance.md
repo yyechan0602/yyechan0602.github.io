@@ -1,5 +1,5 @@
 ---
-title:  "[Java] ☕ 클래스의 상속"
+title:  "[Java] ☕ 클래스의 상속 (inheritance)"
 excerpt: "JAVA CS 지식 관련 정리"
 categories:
   - Java

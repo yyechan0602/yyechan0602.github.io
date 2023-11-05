@@ -55,9 +55,39 @@ public void err() throw Exception{ // 에러를 메소드 호출하는 곳에서
 
 <br>
 
-## 📖 자바의 예외 계층 구조
+## 📖 커스텀 예외
 
+- `일반 예외`로 선언시 `Exception` 상속
+- `RE`로 선언시 `RuntimeException` 상속
 
+커스텀 예외는 특정 클래스에서 자신이 원하는 Exception 발생을 통한 처리를 하고 싶을 때, 만들 수 있다.  
+
+```java
+public class CustomException extends Exception {
+    public CustomException(String message) {
+        super(message);
+    }
+}
+
+public class Divide {
+    public void divide(int num1, int num2) throws CustomException {
+        if (num2 == 0) {
+            throw new CustomException("0으로 못 나눕니다.");
+        }
+        
+        System.out.println(num1 / num2);
+    }
+
+    public static void main(String[] args) {
+        Divide divide = new Divide();
+        try {
+            divide.divide(1, 0);
+        } catch (CustomException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+}
+```
 
 <br>
 

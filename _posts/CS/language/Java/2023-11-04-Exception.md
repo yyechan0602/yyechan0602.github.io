@@ -43,11 +43,23 @@ public void err() throw Exception{ // 에러를 메소드 호출하는 곳에서
 
 ## 📖 자바의 예외 계층 구조
 
-`RE`를 제외한 `Exception`은 무조건 `throws`나 `try-catch`를 통한 예외처리 코드를 작성해 주어야 한다.  
-`RE`는 따로 코드를 작성하지 않아도 되며, `NullPointException`과 같은 오류들이다.  
+- `Error`는 코드 문제가 아닌 하드웨어적인 문제로, 램용량 부족으로 인해 변수 할당이 불가능하다면 `Error`이다.
+- `RE`를 제외한 `Exception`은 무조건 `throws`나 `try-catch`를 통한 예외처리 코드를 작성해 주어야 한다.
+- `RE`는 따로 코드를 작성하지 않아도 되며, `NullPointException`과 같은 오류들이다.
+- 
 
 ![image](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/b12829d9-ffa5-46e8-9434-45249a23c89a)
 
+- error는 하드웨어 문제, Exception은 코드로 발생한 에러이다.
+- `RE`는 예외처리가 꼭 필요하지는 않으며, 실제 서비스중 발생해서는 안되는 오류이다.  
+
+<br>
+
+## 📖 자바의 예외 계층 구조
+
+
+
+<br>
 
 ***
     개인 공부 기록용 블로그입니다.

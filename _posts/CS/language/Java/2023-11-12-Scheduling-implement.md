@@ -18,6 +18,8 @@ last_modified_at: 2023-11-12
 하나의 `process`의 정보를 저장하는 `class` 이다.  
 
 ```java
+package org.example.Scheduling;
+
 public class Process implements Comparable<Process> {
     int processId;
     int arrivalTime;
@@ -25,7 +27,6 @@ public class Process implements Comparable<Process> {
     int temptArrivalTime;
     int temptBurstTime;
     int remainTime;
-
     int realStartTime;
 
     public Process(int processId, int arrivalTime, int burstTime) {
@@ -35,9 +36,7 @@ public class Process implements Comparable<Process> {
     }
 
     public Process(int processId, int arrivalTime, int burstTime, int temptArrivalTime, int temptBurstTime, int remainTime) {
-        this.processId = processId;
-        this.arrivalTime = arrivalTime;
-        this.burstTime = burstTime;
+        this(processId, arrivalTime, burstTime);
         this.temptArrivalTime = temptArrivalTime;
         this.temptBurstTime = temptBurstTime;
         this.remainTime = remainTime;
@@ -60,7 +59,6 @@ public class Process implements Comparable<Process> {
         else return 1;
     }
 }
-
 ```
 
 ## 📖 FCFS

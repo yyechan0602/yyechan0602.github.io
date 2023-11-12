@@ -22,11 +22,35 @@ public class Process implements Comparable<Process> {
     int processId;
     int arrivalTime;
     int burstTime;
+    int temptArrivalTime;
+    int temptBurstTime;
+    int remainTime;
+
+    int realStartTime;
 
     public Process(int processId, int arrivalTime, int burstTime) {
         this.processId = processId;
         this.arrivalTime = arrivalTime;
         this.burstTime = burstTime;
+    }
+
+    public Process(int processId, int arrivalTime, int burstTime, int temptArrivalTime, int temptBurstTime, int remainTime) {
+        this.processId = processId;
+        this.arrivalTime = arrivalTime;
+        this.burstTime = burstTime;
+        this.temptArrivalTime = temptArrivalTime;
+        this.temptBurstTime = temptBurstTime;
+        this.remainTime = remainTime;
+        this.realStartTime = -6666;
+    }
+
+    public boolean update(int realStartTime, int temptArrivalTime, int curRemainTime, int timeSlice) {
+        if (this.realStartTime == -6666) this.realStartTime = realStartTime;
+        this.temptArrivalTime = temptArrivalTime;
+        this.remainTime += curRemainTime;
+        temptBurstTime -= timeSlice;
+        if (temptBurstTime > 0) return true;
+        return false;
     }
 
     @Override
@@ -36,6 +60,7 @@ public class Process implements Comparable<Process> {
         else return 1;
     }
 }
+
 ```
 
 ## 📖 FCFS
@@ -139,34 +164,51 @@ public class LIFO {
 
 ```java
 public class RR {
-    PriorityQueue<Process> processes;
+    int timeSlice;
+    PriorityQueue<Process> processesToRun;
+    Queue<Process> processes;
 
-    public RR() {
-        processes = new PriorityQueue<>();
+
+    public RR(int timeSlice) {
+        this.timeSlice = timeSlice;
+        processes = new LinkedList<>();
+        processesToRun = new PriorityQueue<>();
     }
 
     public void setProcesses(int processId, int arrivalTime, int burstTime) {
-        processes.add(new Process(processId, arrivalTime, burstTime));
+        processesToRun.add(new Process(processId, arrivalTime, burstTime, arrivalTime, burstTime, 0));
     }
 
     public void run() {
         int curTime = 0;
         int remainTime = 0;
 
-        System.out.println("============================= RR =============================");
+        System.out.println("==================================== RR ======================================");
 
-        while (!processes.isEmpty()) {
+        while (!processesToRun.isEmpty() || !processes.isEmpty()) {
+            if (processes.isEmpty() && curTime <= processesToRun.peek().temptArrivalTime) {
+                curTime = processesToRun.peek().temptArrivalTime;
+                processes.add(processesToRun.poll());
+            }
+
+            while (!processesToRun.isEmpty() && curTime >= processesToRun.peek().temptArrivalTime) {
+                processes.add(processesToRun.poll());
+            }
+
             Process process = processes.poll();
 
-            int curRemainTime = Math.max(0, curTime - process.arrivalTime);
-            remainTime += curRemainTime;
-            curTime = Math.max(curTime, process.arrivalTime);
-            curTime += process.burstTime;
 
-            System.out.println("프로세스 ID: " + process.processId + "\t시작시간: " + process.arrivalTime + "\t수행시간: "
-                    + process.burstTime + "\t종료시간: " + curTime + "\t지연시간: " + curRemainTime);
+            int curRemainTime = Math.max(0, curTime - process.temptArrivalTime);
+            curTime = Math.max(curTime, process.temptArrivalTime);
+            curTime += Math.min(process.burstTime, timeSlice);
+            if (process.update(curTime - Math.min(process.burstTime, timeSlice), curTime, curRemainTime, timeSlice)) {
+                processes.add(process);
+            } else {
+                remainTime += process.remainTime;
+                System.out.println("프로세스 ID: " + process.processId + "\t시작시간: " + process.arrivalTime + "\t실제시작시간: " + process.realStartTime + "\t수행시간: "
+                        + process.burstTime + "\t종료시간: " + curTime + "\t지연시간: " + process.remainTime);
+            }
         }
-
         System.out.println("끝난 시간: " + curTime);
         System.out.println("지연 시간: " + remainTime);
     }
@@ -199,7 +241,7 @@ public class main {
 
         lifo.run();
 
-        RR rr = new RR();
+        RR rr = new RR(1);
 
         rr.setProcesses(1,0,2);
         rr.setProcesses(2,2,5);
@@ -210,8 +252,10 @@ public class main {
 
     }
 }
-
 ```
+
+![image](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/21f5c264-0389-4414-93c0-bedf46e17280)
+
 
 <br>
 

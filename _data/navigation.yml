@@ -57,7 +57,7 @@ sidebar-category:
   - title: "🔬 Data Mining"
     children:
       - title: "Data Mining"
-        url: "/Data Mining"    
+        url: "/Data-Mining"    
         category: "Data Mining"        
 
   - title: "🗑 etc"

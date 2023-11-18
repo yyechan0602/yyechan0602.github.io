@@ -30,9 +30,9 @@ last_modified_at: yyyy-mm-dd
 
 ## 📌 풀이
 
-<br>
-
 ## 📌 Code
+
+### 🍄 테스트
 
 ```java
 자바코드

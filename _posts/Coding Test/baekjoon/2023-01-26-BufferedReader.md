@@ -1,17 +1,17 @@
 ---
-title:  "[BaekJoon] BufferReader 사용하기"
-excerpt: "실력향상을 위한 BaekJoon 문제 및 풀이"
+title:  "[Summary] BufferReader 사용하기"
+excerpt: "실력향상을 위한 Java 주요 함수 정리"
 
 categories:
-  - BaekJoon
+  - Summary
 tags:
-  - [BufferReader, Java, Coding_Test, Coding, Test, baekJoon, 백준]
+  - [BufferReader, Java, Coding_Test]
 
 toc: true
 toc_sticky: true
  
 date: 2023-01-26
-last_modified_at: 2023-01-26
+last_modified_at: 2023-01-28
 ---
 
 ## 1. Scanner

@@ -15,6 +15,9 @@ sidebar-category:
       - title: "프로그래머스"
         url: "/Programmers" 
         category: "Programmers"
+      - title: "정리본"
+        url: "/Summary" 
+        category: "Summary"
 
   - title: "💾 BackEnd"
     children:

@@ -30,6 +30,9 @@ sidebar-category:
 
   - title: "💻 CS"
     children:
+      - title: "Basic"
+        url: "/Basic"
+        category: "Basic"
       - title: "Algorithm"
         url: "/Type-Of-Algorithm"
         category: "Type Of Algorithm"

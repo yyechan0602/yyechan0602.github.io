@@ -93,6 +93,8 @@ https://www.docker.com/products/docker-desktop/
 
 ![image](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/11408803-5385-451d-9e50-0e8d9982ca49)  
 
+위에서 -d는 백그라운드에서 실행, -p `port:port`는 `호스트 Port:container Port`
+
 ![image](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/93c0ee91-1a6e-4fa6-bcc4-485854a6f8d3)  
 
 <br>

@@ -85,8 +85,6 @@ last_modified_at: 2024-01-18
 
 도커는 API에 따라서 도커 엔진을 수행하는데, 이 API를 사용가능하도록 CLI(Command Line Interface) 제공을 도커 클라이언트라 한다.  
 
-
-
 <br>
 
 ### 🍄 Apache 서버로 웹페이지 출력하기  
@@ -111,11 +109,12 @@ last_modified_at: 2024-01-18
 ![image](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/505afb9b-a209-4f08-a8f5-046193a2783f)  
 
 컴퓨터는 각 프로세스마다 Port를 배정하여 외부와 통신하게 된다.  
-이때, `-p ComputerPortNum:DockerPort` 앞의 Num은 
-
-![image](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/ed10e868-78f0-4314-90f7-4e3ea1829902)  
+이때, `-p ComputerPortNum:DockerPort` 앞의 Num은 `호스트의 Port`, 뒤의 Num은 `Container의 Port`이다.  
+따라서 호스트의 Port번호가 서로 겹치므로 이를 다음과 같이 수정해주면 된다.
 
 ![image](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/a9e668f0-2fab-4962-9882-da14d5d06ab2)  
+
+![image](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/ed10e868-78f0-4314-90f7-4e3ea1829902)  
 
 <br>
 

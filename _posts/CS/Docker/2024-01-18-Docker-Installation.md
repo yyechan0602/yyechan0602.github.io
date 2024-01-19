@@ -22,7 +22,7 @@ last_modified_at: 2024-01-18
 이번 실습은 `docker-desktop`을 사용하여 진행할 것이다.  
 도커를 사용하기 위한 최소한의 조건이 있는데 이는 64bit 이상 운영체제에서만 작동한다는 것이다.
 
-https://www.docker.com/products/docker-desktop/
+[https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
 
 위의 페이지에서 다운받으면 된다.  
 

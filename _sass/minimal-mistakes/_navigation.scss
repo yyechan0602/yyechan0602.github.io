@@ -174,12 +174,12 @@
     text-align: center;
     text-decoration: none;
     color: $muted-text-color;
-    border: 1px solid mix(#fff, $border-color, 60%);
+    border: 1px solid mix(#e9dcbe, $border-color, 60%);
     border-radius: $border-radius;
 
     .prev_next {
       font-family: $sans-serif;
-      color:#ffd861;
+      color:#ffd000;
     }
 
     &:hover {

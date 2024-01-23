@@ -174,13 +174,13 @@
     text-align: center;
     text-decoration: none;
     color: $muted-text-color;
-    background-color: #f0a800;
-    border: 2px solid mix(#000000, $border-color, 60%);
+    background-color: #ecd6a2;
+    border: 1px solid mix(#352500, $border-color, 60%);
     border-radius: $border-radius;
 
     .prev_next {
       font-family: $sans-serif;
-      color:#ffffff;
+      color:#fdba00;
     }
 
     &:hover {

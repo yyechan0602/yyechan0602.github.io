@@ -24,9 +24,9 @@ sidebar-category:
       - title: "SpringBoot"
         url: "/SpringBoot" 
         category: "SpringBoot"
-      - title: "Game-Server"
+      - title: "Game Server"
         url: "/Game-Server" 
-        category: "Game-Server"
+        category: "Game Server"
 
   - title: "💻 CS"
     children:

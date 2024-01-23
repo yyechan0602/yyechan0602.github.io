@@ -1,22 +1,22 @@
 ---
-title:  "[Java] ☕ 자바 스터디 일정"
-excerpt: "JAVA CS 지식 관련 정리"
+title:  "[Docker] 🐋 도커 스터디 일정"
+excerpt: "Docker CS 지식 정리"
 categories:
-  - Java
+  - Docker
 tags:
-  - [CS, Java]
+  - [CS, Docker]
 
 toc: true
 toc_sticky: true
  
-date: 2023-09-20
-last_modified_at: 2023-09-20
+date: 2024-01-16
+last_modified_at: 2024-01-16
 ---
 
-# 📖 Java Study  
+# 📖 Docker Study  
 
 ## 🍄 스터디 소개
- - 자바 기본 개념부터 깊은 이해까지 학습하기 위한 스터디입니다.  
+ - Docker 기본 개념부터 깊은 이해까지 학습하기 위한 스터디입니다.  
  - 개발자 백기선님의 [자바 스터디의 커리큘럼](https://github.com/whiteship/live-study/issues?q=is%3Aissue+is%3Aclosed)을 따라 진행합니다.  
 
 
@@ -27,9 +27,6 @@ last_modified_at: 2023-09-20
 | 조은상 | [GitHub](https://github.com/JoEunSang) |
 | 방남현 | [GitHub](https://github.com/bnh5992) |
 | 정소영 | [GitHub](https://github.com/abbiddo) |
-| 이종재 | [GitHub](https://github.com/dlwhdwo37) |
-| 박윤진 | [GitHub](https://github.com/qkrbswls) |
-| 김나현 | [GitHub](https://github.com/bluewing0303) |
 
 <br>
 
@@ -50,31 +47,28 @@ last_modified_at: 2023-09-20
 
 <br>
 
-### 스터디 진행  
-
+### 스터디 진행
 1. 발표자는 본인이 발표한 내용과 Issue에 기록된 질문들을 모아 토론한다.  
 2. 최종 토론본에는 발표자의 자료와 기록된 질문에 대한 답변을 병합하여 주차 폴더에 업로드한다.  
 
 <br>
 
-## 🍄 스터디 중간 점검 시험  
-
+## 🍄 스터디 중간 점검 시험
 1. 3회차를 기준으로 중간 점검 시험을 실시한다.  
 2. 시험은 카훗(kahoot)을 사용하여 문제를 출제하고, O-X 퀴즈 및 4지선다 문제로 개념 위주이며, 복습에 의미를 둔다.  
 
 <br>
 
-## 🍄 진행상황  
-
+## 🍄 진행상황
 | 스터디 회차 | 학습 주제 | 최종 회의록 | 스터디 (예정) 일자 | 진행 여부 |
 | :---: | :---: | :---: | :---: | :---: |
-| 1회차 | [1주차](https://github.com/TUK-education-java/study/issues/1) | [1주차 회의록](https://github.com/IMS-STUDY/Java-Study/blob/main/1week/%EC%B5%9C%EC%A2%85%20%ED%86%A0%EC%9D%98%EB%A1%9D/1%EC%A3%BC%EC%B0%A8.md) | 2023.9.25 (월) |✔️|
-| 2회차 | [2주차](https://github.com/TUK-education-java/study/issues/3) | [2주차 회의록](https://github.com/IMS-STUDY/Java-Study/blob/main/2week/%EC%B5%9C%EC%A2%85%20%ED%9A%8C%EC%9D%98%EB%A1%9D/2%EC%A3%BC%EC%B0%A8%20%ED%9A%8C%EC%9D%98%EB%A1%9D.md) | 2023.10.10 (화) |✔️|
-| 3회차 | [3주차](https://github.com/TUK-education-java/study/issues/6) | [3주차 회의록](https://github.com/IMS-STUDY/Java-Study/blob/main/3week/3%EC%A3%BC%EC%B0%A8%20%ED%9A%8C%EC%9D%98%EB%A1%9D.md) | 2023.10.16 (월) |✔️|
-| 4회차 | [4주차](https://github.com/TUK-education-java/study/issues/8) | [4주차 회의록](https://github.com/IMS-STUDY/Java-Study/blob/main/4week/4%EC%A3%BC%EC%B0%A8%20%ED%9A%8C%EC%9D%98%EB%A1%9D.md) | 2023.10.30 (월) |✔️|
-| 5회차 | [5주차](https://github.com/TUK-education-java/study/issues/10) | [5주차 회의록](https://github.com/IMS-STUDY/Java-Study/blob/main/5week/5%EC%A3%BC%EC%B0%A8%20%ED%9A%8C%EC%9D%98%EB%A1%9D.md) | 2023.11.06 (월) |✔️|
-| 6회차 | [6주차](https://github.com/TUK-education-java/study/issues/12) | [6주차 회의록](https://github.com/IMS-STUDY/Java-Study/blob/main/6week/6%EC%A3%BC%EC%B0%A8%20%ED%9A%8C%EC%9D%98%EB%A1%9D.md) | 2023.11.13 (월) |✔️|
-| 7회차 | [7주차](https://github.com/TUK-education-java/study/issues/14) | [7주차 회의록](https://github.com/IMS-STUDY/Java-Study/blob/main/7week/7%EC%A3%BC%EC%B0%A8%20%ED%9A%8C%EC%9D%98%EB%A1%9D) | 2023.11.20 (월) |✔️|
+| 1회차 | [1회차](https://github.com/IMS-STUDY/Docker-Study/issues/1) | [1회차 회의록](https://github.com/IMS-STUDY/Docker-Study/blob/main/1week/1%ED%9A%8C%EC%B0%A8) | 2024.01.22 (월) |✔️|
+| 2회차 | [2회차](https://github.com/IMS-STUDY/Docker-Study/issues/3) | [2회차 회의록](https://github.com/IMS-STUDY/Docker-Study/blob/main/2week/1%ED%9A%8C%EC%B0%A8) | 2024.01.24 (수) |✔️|
+| 3회차 | [3회차](https://github.com/IMS-STUDY/Docker-Study/issues/5) | [3회차 회의록](https://github.com/IMS-STUDY/Docker-Study/blob/main/3week/1%ED%9A%8C%EC%B0%A8) | 2024.01.26 (금) |✔️|
+| 4회차 | [4회차](https://github.com/IMS-STUDY/Docker-Study/issues/7) | [4회차 회의록](https://github.com/IMS-STUDY/Docker-Study/blob/main/4week/1%ED%9A%8C%EC%B0%A8) | 2024.01.29 (월) |✔️|
+| 5회차 | [5회차](https://github.com/IMS-STUDY/Docker-Study/issues/9) | [5회차 회의록](https://github.com/IMS-STUDY/Docker-Study/blob/main/5week/1%ED%9A%8C%EC%B0%A8) | 2024.01.31 (수) |✔️|
+| 6회차 | [6회차](https://github.com/IMS-STUDY/Docker-Study/issues/11) | [6회차 회의록](https://github.com/IMS-STUDY/Docker-Study/blob/main/6week/1%ED%9A%8C%EC%B0%A8) | 2024.02.02 (금) |✔️|
+| 7회차 | [7회차](https://github.com/IMS-STUDY/Docker-Study/issues/13) | [7회차 회의록](https://github.com/IMS-STUDY/Docker-Study/blob/main/7week/1%ED%9A%8C%EC%B0%A8) | 2024.02.05 (월) |✔️|
 
 <br>
 

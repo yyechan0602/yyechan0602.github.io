@@ -9,7 +9,7 @@ sidebar:
 ---
 
 
-{% assign posts = site.categories.['Game-Server'] %}
+{% assign posts = site.categories.['Game Server'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
 
 <!--

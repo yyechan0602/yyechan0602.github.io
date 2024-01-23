@@ -1,6 +1,6 @@
 ---
 title:  "[Docker] 🎮 Game Server"
-excerpt: "TCP Server CS 지식 정리"
+excerpt: "Game Server CS 지식 정리"
 categories:
   - Game Server
 tags:

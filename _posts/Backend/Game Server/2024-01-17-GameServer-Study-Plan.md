@@ -41,6 +41,7 @@ last_modified_at: 2024-01-17
 2. 최종 토론본에는 발표자의 자료와 기록된 질문에 대한 답변을 병합하여 주차 폴더에 업로드한다.
 
 ## 진행상황
+
 | 스터디 회차 | 학습 주제 | 최종 회의록 | 스터디 (예정) 일자 | 진행 여부 |
 | :---: | :---: | :---: | :---: | :---: |
 | 1회차 | [1주차](https://github.com/IMS-STUDY/Game_Server-STUDY/issues/2) | [1추자 회의록](https://github.com/IMS-STUDY/Game_Server-STUDY/blob/main/1week/1%EC%A3%BC%EC%B0%A8) | 2024.1.19 (금) |✔️|

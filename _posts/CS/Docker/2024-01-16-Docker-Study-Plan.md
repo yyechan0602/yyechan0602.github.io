@@ -60,6 +60,7 @@ last_modified_at: 2024-01-16
 <br>
 
 ## 🍄 진행상황
+
 | 스터디 회차 | 학습 주제 | 최종 회의록 | 스터디 (예정) 일자 | 진행 여부 |
 | :---: | :---: | :---: | :---: | :---: |
 | 1회차 | [1회차](https://github.com/IMS-STUDY/Docker-Study/issues/1) | [1회차 회의록](https://github.com/IMS-STUDY/Docker-Study/blob/main/1week/1%ED%9A%8C%EC%B0%A8) | 2024.01.22 (월) |✔️|

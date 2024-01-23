@@ -1,10 +1,10 @@
 ---
-title:  "[Docker] 🎮 Game Server"
+title:  "[Game Server] 🎮 게임 서버 스터디 일정"
 excerpt: "Game Server CS 지식 정리"
 categories:
   - Game Server
 tags:
-  - [CS, Game Server]
+  - [CS, Game Server, TCP Server]
 
 toc: true
 toc_sticky: true

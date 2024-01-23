@@ -1,5 +1,5 @@
 ---
-title:  "[Docker] 🎮 Game Server"
+title:  "[Game Server] 🎮 Game Server"
 excerpt: "Game Server CS 지식 정리"
 categories:
   - Game Server

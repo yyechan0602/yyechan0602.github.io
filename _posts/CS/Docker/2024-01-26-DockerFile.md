@@ -96,7 +96,6 @@ Dockerfile은 일련의 인스트럭션으로 구성되어 있는데, 이를 실
 
 ![image](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/4a09c397-351f-44e0-9464-a99e315becf9)  
 
-
 <br>
 
 ***

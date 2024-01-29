@@ -88,6 +88,16 @@ v1 이미지를 레포지토리에 푸시하였다.
 </html>
 ```
 
+이후 다음과 같이 ApachServer를 만들어 준다.  
+
+![image](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/d174b5a1-3302-499d-865d-b0261c8ba607)
+
+`localhost:8080`에 접속해보니 기본으로 지정된 화면이 나오는 것을 확인하였다.  
+이후, cp 커맨드를 사용하여 호스트에서 컨테이너로 위 `index.html` 파일을 복사해 주었다.  
+
+![image](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/954ac7d6-8025-4b56-b9e9-23b3b0de55f6)
+
+![image](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/e4ba5760-8c58-4391-bf1a-b2aad188627e)
 
 
 <br>

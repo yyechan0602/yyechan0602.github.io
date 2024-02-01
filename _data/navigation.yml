@@ -55,6 +55,9 @@ sidebar-category:
       - title: "CS Interview"
         url: "/CS-Interview"
         category: "CS Interview"
+      - title: "CS ETC"
+        url: "/CS-ETC"
+        category: "CS ETC"
         
 
   - title: "⛳ Unity"

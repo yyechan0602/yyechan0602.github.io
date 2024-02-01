@@ -219,7 +219,9 @@ public interface DemoRepository extends JpaRepository<Demo, Integer> {
 <div markdown="1">
 
 기존에 있던 application.properties 파일을 삭제하고, application.yml로 변경해주었다.  
-이때 `local db`를 사용하였는데, ![Alt text](image1.png)
+이때 `local db`를 사용하였는데, 이를 위하여 docker에서 기본적으로 설정되어 있는 `host` network에 접속하기 위하여 `host.docker.internal`를 지정해주었다.  
+
+![Alt text](image1.png) 
 
 ```yml
 spring:

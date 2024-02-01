@@ -1,5 +1,5 @@
 ---
-title:  "[Docker] 🐋 Multi-Stage Build (멀티스테이지 빌드)"
+title:  "[Docker] 🐋 멀티스테이지 빌드 (Multi-Stage Build)"
 excerpt: "Docker CS 지식 정리"
 categories:
   - Docker

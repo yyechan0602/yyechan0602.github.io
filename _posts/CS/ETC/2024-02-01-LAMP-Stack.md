@@ -1,6 +1,6 @@
 ---
-title:  "[CS ETC] 💡 LAMP 스택"
-excerpt: "CS 지식 정리"
+title:  "[CS ETC] 💡 LAMP 스택" 
+excerpt: "CS 지식 정리" 
 categories:
   - CS ETC
 tags:
@@ -15,7 +15,7 @@ last_modified_at: 2024-02-01
 
 ## 📖 LAMP 스택
 
-LAMP은 웹사이트나 서버 운영에 자주 쓰이는 이름들의 약자이다
+LAMP은 웹사이트나 서버 운영에 자주 쓰이는 이름들의 약자이다.  
 
  - Linux
  - Apache

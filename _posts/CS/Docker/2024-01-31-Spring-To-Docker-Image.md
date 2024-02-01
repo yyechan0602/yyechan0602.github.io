@@ -320,10 +320,20 @@ ENTRYPOINT ["java","-jar","/app.jar"]
 
 ### 🍄 실습
 
+아래와 같이 하면 도커 이미지를 빌드해주고, `Docker Hub`에 이를 올린다.  
+
 ```
 docker build -t [도커허브 ID]/[Repository 이름] .
-docker push[]
+docker push [도커허브 ID]/[Repository 이름]
 ```
+
+아래와 같이 `docker Hub`에서 이미지를 다운받아서 실행시켰다.  
+
+```
+docker run -p 8080:8080 [도커 허브 ID/이미지 이름]
+```
+
+아래는 실행 화면들이다.  
 
 ![demo](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/1ff74e51-60cc-468a-97e1-4fb44dbfd12e)
 
@@ -334,9 +344,35 @@ docker push[]
 
 <br>
 
-### 🍄 실습
+## 📖 멀티 스테이지를 통해 이미지 만들기
+
+기존과 동일한 코드에서 `Dockerfile`을 변경해주면 된다.  
+
+```
+# build
+FROM gradle:8.5 AS builder
+WORKDIR /build
+
+COPY build.gradle settings.gradle /build/
+RUN gradle build -x test --parallel --continue > /dev/null 2>&1 || true
+
+COPY . /build
+RUN gradle build -x test --parallel
 
 
+# app
+FROM openjdk:17
+
+WORKDIR /app
+
+COPY --from=builder /build/build/libs/*-SNAPSHOT.jar ./app.jar
+
+ENTRYPOINT ["java","-jar","app.jar"]
+
+EXPOSE 8080
+```
+
+이때, builder의 버전을 확인해 주어야 하는데, 이는 `gradle/wrapper/gradle-wrapper.properties` 파일에 있는 `distributionUrl`에서 확인할 수 있다.  
 
 <br>
 

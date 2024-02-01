@@ -16,10 +16,22 @@ last_modified_at: 2024-01-31
 ## 📖 SpringBoot Server
 
 연습을 위하여 간단하게 `demo/hello` API와 get형식의 `demo/demo`를 가지고 있는 `Demo Server`를 올렸다.  
+스프링부트는 IntelliJ에서 진행할 예정이며, 자바는 `JDK-17`/ 스프링부트 버전은 `3.2.2`을 사용하였다.  
+
+![image](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/8d5414b8-b467-41f8-89b4-be6dfaa1bba5)
+
+![image](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/651d6cf4-6d82-4cd6-af84-8261705c2167)
+
+위와 같이 프로젝트를 만들어 주었다.  
+아래는 MVC모델로 구현한 소스코드이다.  
 
 <br>
 
-### 🍄 Controller
+### 🍄 소스 코드
+
+<details>
+<summary>Controller</summary>
+<div markdown="1">
 
 ```java
 package com.example.demo.Controller;
@@ -54,9 +66,14 @@ public class DemoController {
 }
 ```
 
+</div>
+</details>
+
 <br>
 
-### 🍄 DTO
+<details>
+<summary>DTO</summary>
+<div markdown="1">
 
 ```java
 package com.example.demo.DTO;
@@ -75,9 +92,14 @@ public class DemoDTO {
 
 ```
 
+</div>
+</details>
+
 <br>
 
-### 🍄 Entity
+<details>
+<summary>Entity</summary>
+<div markdown="1">
 
 ```java
 package com.example.demo.entity;
@@ -105,10 +127,13 @@ public class Demo {
 
 ```
 
+</div>
+</details>
+
 <br>
 
 <details>
-<summary>🍄 Repository</summary>
+<summary>Repository</summary>
 <div markdown="1">
 
 ```java
@@ -130,7 +155,9 @@ public interface DemoRepository extends JpaRepository<Demo, Integer> {
 
 <br>
 
-### 🍄 Service
+<details>
+<summary>Service</summary>
+<div markdown="1">
 
 ```java
 package com.example.demo.Service;
@@ -159,7 +186,156 @@ public class DemoService {
 }
 ```
 
+</div>
+</details>
+
+<details>
+<summary>Repository</summary>
+<div markdown="1">
+
+```java
+package com.example.demo.Repository;
+
+import com.example.demo.DTO.DemoDTO;
+import com.example.demo.entity.Demo;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface DemoRepository extends JpaRepository<Demo, Integer> {
+}
+
+```
+
+</div>
+</details>
+
+<br>
+
+<details>
+<summary>application.yml</summary>
+<div markdown="1">
+
+기존에 있던 application.properties 파일을 삭제하고, application.yml로 변경해주었다.  
+
+```java
+spring:
+  datasource:
+    url: jdbc:mariadb://host.docker.internal:3306/demo
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: 'root'
+    password: '1234'
+  jpa:
+    open-in-view: false
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  application:
+    name: demo
+  profiles:
+    active: dev
+
+server:
+  port: 8080
+
+```
+
+</div>
+</details>
+
+<br>
+
+<details>
+<summary>application.yml</summary>
+<div markdown="1">
+
+기존에 있던 application.properties 파일을 삭제하고, application.yml로 변경해주었다.  
+
+```yml
+spring:
+  datasource:
+    url: jdbc:mariadb://host.docker.internal:3306/demo
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: 'root'
+    password: '1234'
+  jpa:
+    open-in-view: false
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  application:
+    name: demo
+  profiles:
+    active: dev
+
+server:
+  port: 8080
+
+```
+
+</div>
+</details>
+
+<br>
+
+<details>
+<summary>의존성 주입</summary>
+<div markdown="1">
+
+build.gradle에 있는 dependencies 
+
+```
+//swagger
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
+    //Database
+    runtimeOnly 'org.mariadb.jdbc:mariadb-java-client' // MariaDB
+```
+
+</div>
+</details>
+
+<br>
+
+## 📖 docker 이미지 만들기
+
+아래와 같이 오른쪽의 Gradle 항목에서 `build/bootJar`을 클릭하여 파일 빌드를 해준다.  
+그러면 `build/libs` 아래에 `.jar`파일이 생성되게 된다.  
+
+![image](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/d0103143-e104-4483-a17b-aa2a4765e7fc)
+
+`dockerfile`이라는 이름의 파일을 프로젝트 root폴더 아래에 만들어준다.  
+아래와 같이 내용을 적어준다.  
+
+- dockerfile
+```dockerfile
+FROM openjdk:11
+ARG JAR_FILE=*.jar
+COPY ${JAR_FILE} app.jar
+ENTRYPOINT ["java","-jar","/app.jar"]
+```
+
+<br>
+
 ### 🍄 실습
+
+```
+docker build -t [도커허브 ID]/[Repository 이름] .
+docker push[]
+```
+
+![demo](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/1ff74e51-60cc-468a-97e1-4fb44dbfd12e)
+
+
+![swagger](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/90f4be09-c230-43c5-be28-2c5f4c59fdef)
+
+![get](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/369e0500-eb05-449e-866c-1d754bb6cbf2)
+
+<br>
+
+### 🍄 실습
+
 
 
 <br>

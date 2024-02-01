@@ -9,8 +9,8 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2024-01-31
-last_modified_at: 2024-01-31
+date: 2024-01-30
+last_modified_at: 2024-01-30
 ---
 
 ## 📖 SpringBoot Server
@@ -221,7 +221,8 @@ public interface DemoRepository extends JpaRepository<Demo, Integer> {
 기존에 있던 application.properties 파일을 삭제하고, application.yml로 변경해주었다.  
 이때 `local db`를 사용하였는데, 이를 위하여 docker에서 기본적으로 설정되어 있는 `host` network에 접속하기 위하여 `host.docker.internal`를 지정해주었다.  
 
-![Alt text](image1.png) 
+![image1](https://github.com/yyechan0602/yyechan0602.github.io/assets/37824506/2f658b66-556f-4a40-9aab-31e083012d61)
+
 
 ```yml
 spring:

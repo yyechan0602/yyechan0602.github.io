@@ -1,5 +1,5 @@
 ---
-title:  "[Docker] 🐋 Spring 서버를 Docker로 띄우기"
+title:  "[Docker] 🐋 도커 컴포즈 (Docker Compose)"
 excerpt: "Docker CS 지식 정리"
 categories:
   - Docker
@@ -9,13 +9,19 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2024-01-31
-last_modified_at: 2024-01-31
+date: 2024-02-01
+last_modified_at: 2024-02-01
 ---
 
-## 📖 SpringBoot Server
+## 📖 도커 컴포즈
+
+
+
+<br>
 
 ### 🍄 실습
+
+
 
 <br>
 
